@@ -1,0 +1,25 @@
+.div-description input{
+    padding: 13.4px 16px;
+    background-color: var(--color-grey-4);
+    width: 314px;
+    border: 2px solid var(--color-grey-4);
+    border-radius: var(--radius-1);
+    font-size: var(--size-3);
+    font-weight: var(--weight-5);
+}
+
+.div-data-one input{
+    padding: 11px 16px;
+    background-color: var(--color-grey-4);
+    width: 91px;
+    border: 2px solid var(--color-grey-4);
+    border-radius: 8px 0 0 8px;
+    font-size: var(--size-3);
+    font-weight: var(--weight-5);
+}
+
+@media (max-width: 900px){
+    .div-description input{
+        width: 100%;
+    }
+}

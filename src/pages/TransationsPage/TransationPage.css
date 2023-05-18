@@ -1,0 +1,36 @@
+main {
+    margin: 0 auto;
+    max-width: 978px;
+    padding: 39px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-form-total{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 363px;
+}
+
+.section-list{
+    width: 560px;
+}
+
+@media (max-width: 900px){
+    main{
+        margin: 0;
+        flex-direction: column;
+        max-width: 900px;
+        align-items: center;
+        padding: 39px 10px;
+    }
+
+    .section-form-total{
+        width: 100%;
+    }
+
+    .section-list{
+        width: 100%;
+    }
+}

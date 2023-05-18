@@ -1,0 +1,66 @@
+form button{
+    padding: 14.5px;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    border-radius: var(--radius-1);
+    font-size: var(--size-3);
+    color: var(--color-grey-5);
+    font-weight: var(--weight-4);
+    cursor: pointer;
+}
+
+form button:hover{
+    filter: brightness(0.9);
+}
+
+.selected{
+    padding: 10.5px 15px;
+    background-color: var(--color-primary);
+    color: var(--color-grey-5);
+    font-size: var(--size-4);
+    font-weight: var(--weight-3);
+    border: 1.4px solid var(--color-primary);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.selected:hover{
+    filter: brightness(0.9);
+}
+
+.to-select{
+    padding: 10.5px 15px;
+    background-color: var(--color-grey-3);
+    color: var(--color-grey-2);
+    font-size: var(--size-4);
+    font-weight: var(--weight-3);
+    border: 1.4px solid var(--color-grey-3);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.to-select:hover{
+    filter: brightness(0.9);
+}
+
+.value-trash button{
+    padding: 6.11px 7.33px;
+    background-color: var(--color-grey-3);
+    border: transparent;
+    border-radius: 2.4615px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.value-trash button:hover{
+    filter: brightness(0.9);
+}
+
+@media(max-width: 900px){
+    .value-trash button{
+        height: 25px;
+        width: 25px;
+    }
+}

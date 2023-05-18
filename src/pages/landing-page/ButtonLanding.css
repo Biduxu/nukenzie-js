@@ -1,0 +1,85 @@
+
+.div-landing{
+    background-color: var(--color-grey-1);
+    height: 100vh;
+    width: 100%;
+}
+
+.div-content{
+    margin: 0 auto;
+    max-width: 988px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-button-start{
+    max-width: 347px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.section-button-start h2{
+    font-size: var(--size-2);
+    color: var(--color-grey-5);
+    font-weight: var(--weight-1);
+}
+
+.section-button-start span{
+    color: var(--color-primary);
+}
+
+.section-button-start h1{
+    font-size: var(--size-1);
+    color: var(--color-grey-5);
+    font-weight: var(--weight-1);
+    line-height: 48px;
+}
+
+.section-button-start p{
+    font-size: var(--size-3);
+    color: var(--color-grey-5);
+    font-weight: var(--weight-5);
+}
+
+.section-button-start button{
+    padding: 14.5px 0;
+    width: 241px;
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-1);
+    background-color: var(--color-primary);
+    color: var(--color-grey-5);
+    font-size: var(--size-3);
+    font-weight: var(--weight-4);
+    cursor: pointer;
+}
+
+.section-button-start button:hover{
+    filter: brightness(0.9);
+}
+
+@media (max-width: 900px){
+    .div-landing img{
+        display: none;
+    }
+
+    .div-content{
+        width: 100%;
+    }
+
+    .section-button-start{
+        padding: 10px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .section-button-start h1{
+        text-align: center;
+    }
+
+    .section-button-start button{
+        max-width: 241px;
+    }
+}
